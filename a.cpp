@@ -77,7 +77,7 @@ string spellCorrect(string &word)
         }
         distances[ed].push_back(word_freq.first);
     }
-    cout << temp << endl;
+    // cout << temp << endl;
 
     // Take the words with lowest edit distance, these are assumed to be the nearest correct words.
     auto lowestDistance = distances.begin();
