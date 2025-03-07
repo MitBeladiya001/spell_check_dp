@@ -1,7 +1,9 @@
 **Spell Checker Using Dynamic Programming**
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This program implements a spell checker that takes a string (a sentence or paragraph) as input and corrects all the misspelled words. It utilizes the concept of dynamic programming and the Levenshtein distance algorithm to suggest the most probable correct words.
 
 **How it Works**
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Dictionary Collection: The program starts by collecting a dictionary of around 200K words along with the frequency of usage of each word. This dictionary is stored in a text file.
 
 Word Hashing: The words in the dictionary, along with their frequencies, are hashed into an unordered map for efficient retrieval and lookup during the spell checking process.
